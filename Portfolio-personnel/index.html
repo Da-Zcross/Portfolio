@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png"  width="90">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name">DZELLAT KODIA <br>
+            Dassise</h1>
+
+          <p class="title">Developeur Web et Web Mobile</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Mes Coordonnées</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dzellatkodiadassise@gmail.com" class="contact-link">dzellatkodiadassise@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Téléphone</p>
+
+              <a href="tel:+33664641346" class="contact-link">+33 664 64 13 46</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Date d'anniversaire</p>
+
+              <time datetime="14-08-2004"> 14 Août 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Localisation</p>
+
+              <address>41000, Blois <br> Loie-et-Cher</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/dassise-dzellat-kodia-1589b4244/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://github.com/Da-Zcross" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button> 
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Qui suis-je ?</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Je suis un étudiant dans le domaine informatique , basé dans la création et conception d'application et la  conception de site web .
+            J'apprécie transformer des problèmes complexes en designs simples, beaux et intuitifs.
+          </p>
+
+          <p>
+            Mon travail consiste à construire votre site Web/Application de manière fonctionnelle et conviviale, tout en le rendant attractif.
+            De plus, j'ajoute une touche personnelle à votre produit et veille à ce qu'il soit accrocheur et facile à utiliser. 
+            Mon objectif est de transmettre votre message et votre identité de la manière la plus créative possible.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Ce que je fais </h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développeur Web </h4>
+
+                <p class="service-item-text">
+                  Je fais la création de site Web attrayant , dynamyque et professionnel                
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Développeur d'Applications</h4>
+
+                <p class="service-item-text">
+                  Je développe des applications , par rapport aux besoins de l'utilisateur              
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> CCI Campus centre de Blois</h4>
+
+              <span>2023-2024</span>
+
+              <p class="timeline-text">
+                
+                Titre Professionnel Concepteur Développeur d’Applications 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">IMIE-Paris</h4>
+
+              <span> 2023 <br> 01 Mars - 15 Septembre </span>
+
+              <p class="timeline-text">
+                
+                Titre professionnel Développeur Web et Web Mobile   Bac+2
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">E2C</h4>
+
+              <span>2022</span>
+
+              <span> 28 Mars - 08 Septembre</span>
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BAC </h4>
+
+              <span>2020-2021</span>
+
+              <p class="timeline-text">
+               
+                Bac Général Série D ( reconnu par le centre ENIC- NARIC FRANCE ) 
+                
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Développeur à la Startup week-end Loir et Cher Tech </h4>
+
+              <span>  2023  </span>
+    
+              <p class="timeline-text">
+              
+                • Création de l’application FoodFun qui propose les restaurants selon ces critères alimentaires<br>
+                • Maquetage, design et wireframing<br>
+                • Réalisation d'un business plan<br>
+                • Etude du marché
+    
+              </p>
+    
+            </li>
+    
+            <li class="timeline-item">
+
+              
+              <h4 class="h4 timeline-item-title">Développeur à la Startup Teens Loir et Cher Tech </h4>
+
+              <span> 2022 </span>
+              <span> Février </span>  
+        
+              <p class="timeline-text">
+              
+                • Mentor à la  Startup Teens Loir et Cher Tech <br>
+                • Mentor d'un projet de création d'un applicatif de gestion pédagogique <br>
+                • Encadrement des équipes juniors <br>
+                • Gestion des étapes et des séquences du projet
+
+              </p>
+    
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              
+              <h4 class="h4 timeline-item-title">Développeur à la Startup week-end Loir et Cher Tech </h4>
+            
+              <span> 2022 </span> 
+    
+              <p class="timeline-text">
+              
+                • Création d'un Bracelet de Suivi Cardiaque (BSC)<br>
+                • Maquetage, design et wireframing <br>
+                • Réalisation d'un business plan<br>
+                • Etude et conception<br>
+                • Documentation
+
+
+              </p>
+    
+            </li>
+
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage </h4>
+
+              <span>    2022  <br> 20 Juin  09 Juillet  </span>
+    
+              <p class="timeline-text">
+              
+                Stage de commercial à AUCHAN (Vineuil)
+              </p>
+    
+            </li>
+    
+
+
+
+
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Stage </h4>
+
+              <span>   2022 <br> 01 Juin - 17 Juin  </span>
+    
+              <p class="timeline-text">
+                Stage de préparateur de commande chez AUTODISTRIBUTION (Blois)
+              </p>
+    
+            </li>
+
+
+
+          </ol>
+
+        </section>
+
+
+
+
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Mes Compétences</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <p class="timeline-text">
+                
+                • Analyse technique <br>  
+                • Maintenance informatique <br>
+                • Outils : PyCharm, Phpstorm, Laragon, CodeBlocks, Docker  , Jmerise ,Postman ,Visual Paradigm , Looping, Visual Studio Code , Xampp,GanttProject<br>
+                • PHP : MVC / Procedural <br>
+                • Réalisé la mise en production des solutions logicielles dans un environnement d'exploitation <br>
+                • Système Windows et Linux <br>
+                • Bases de données : MySQL , Langage SQL <br>
+                • Gestion de projet <br>
+                • UML/PDO/POO, Merise <br>
+                • Cloud (Azure) <br>
+                • Licence en RGPD et ANSSI , Licence Booststrap <br> 
+
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Site Web </button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="http://localhost/final/html/index.html" target="_blank">
+
+                  <figure class="project-img">
+                      <div class="project-item-icon-box">
+                          <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/Gourmandise ok.png" alt="Gourmandise" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Gourmandise</h3>
+
+                  <p class="project-category">Site Web</p>
+
+              </a>
+            </li>
+
+
+
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="http://localhost/final/hermes/acceuil.html" target="_blank">
+
+                  <figure class="project-img">
+                      <div class="project-item-icon-box">
+                          <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/Hermes ok.png" alt="Gourmandise" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Hermes</h3>
+
+                  <p class="project-category">Site Web</p>
+
+              </a>
+            </li>
+
+
+
+            
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="http://localhost/final/Portfolio/Portfolio%20personnel/" target="_blank">
+
+                  <figure class="project-img">
+                      <div class="project-item-icon-box">
+                          <ion-icon name="eye-outline"></ion-icon>
+                      </div>
+
+                      <img src="./assets/images/my-avatar.png" alt="Gourmandise" loading="lazy">
+                  </figure>
+
+                  <h3 class="project-title">Mon CV web </h3>
+
+                  <p class="project-category">Site Web</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#"      target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/my-avatar.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Application</p>
+
+              </a>
+            </li>
+
+           
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.460634270118!2d1.3335726766113452!3d47.59773218858945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e4a8078ee3d8c9%3A0x75ead91dd7be2324!2s13%20Rue%20de%20Picardie%2C%2041000%20Blois!5e0!3m2!1sfr!2sfr!4v1700732858184!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+          <h3 class="h3 form-title">Me Contacter</h3>
+          <form action="#"  method="post" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nom et Prénom" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Adresse e-mail" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Votre Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Envoyer</span>
+            </button>
+          </form>
+        </section>
+        
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
